@@ -12,6 +12,7 @@ import org.springframework.data.neo4j.core.schema.Node;
 @NoArgsConstructor
 public class Cities
 {
+
     @Id
     private String zipCode;
     private String state;
